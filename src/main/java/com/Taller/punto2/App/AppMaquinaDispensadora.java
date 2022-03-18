@@ -1,10 +1,6 @@
-package com.Dispensador.app;
+package com.Taller.punto2.App;
 
-import com.Dispensador.dominio.MaquinaDispensadora;
-import com.Dispensador.dominio.Snack;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.Taller.punto2.dominio.MaquinaDispensadora;
 
 public class AppMaquinaDispensadora {
     public static void main(String[] args) {

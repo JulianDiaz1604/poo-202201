@@ -1,4 +1,4 @@
-package com.Dispensador.dominio;
+package com.Taller.punto2.dominio;
 
 import java.util.*;
 import java.util.stream.Collectors;

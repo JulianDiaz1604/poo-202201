@@ -1,7 +1,7 @@
-package com.Agenda.app;
+package com.Taller.punto1.App;
 
-import com.Agenda.dominio.Agenda;
-import com.Agenda.dominio.Contacto;
+import com.Taller.punto1.dominio.Agenda;
+import com.Taller.punto1.dominio.Contacto;
 
 public class AppAgenda {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.Agenda.dominio;
+package com.Taller.punto1.dominio;
 
 public class Contacto {
     private String nombre;

@@ -1,4 +1,4 @@
-package com.Dispensador.dominio;
+package com.Taller.punto2.dominio;
 
 public class Snack {
     public String nombre;
