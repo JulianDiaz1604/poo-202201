@@ -24,7 +24,7 @@ public class AppMaquinaDispensadora {
         maquina.crearSnack("coca cola", "d2", (short) 5, 2000);
         maquina.crearSnack("hit", "d3", (short) 6, 2000);
 
-        maquina.dispensarSnackPorCodigo("d3", 1000);
+        maquina.dispensarSnackPorCodigo("d3", 2000);
         System.out.println("------------------------------------");
         maquina.dispensarSnackPorNombre("cheetos", 1200);
         System.out.println("------------------------------------");
