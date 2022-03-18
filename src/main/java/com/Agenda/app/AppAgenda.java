@@ -13,6 +13,7 @@ public class AppAgenda {
         agenda.crearContacto("Carlos", "Mattos", 3002587496l);
         agenda.crearContacto("Carlos", "Maderos", 3022587496l);
         agenda.crearContacto("Alejandro", "Ramirez", 3104698710l);
+        agenda.crearContacto("Angie", "Diaz", 3216549870l);
 
         Contacto c = agenda.buscarPorNombre("Ana");
         if (c != null) {

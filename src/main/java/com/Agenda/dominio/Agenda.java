@@ -8,8 +8,13 @@ public class Agenda {
     public Agenda(){this.contactos = new ArrayList<>();}
 
     public void crearContacto(String nombre, String apellido, long celular){
-        Contacto contactoAAgregar = new Contacto(nombre, apellido, celular);
-        this.contactos.add(contactoAAgregar);
+        int g = contactos.size();
+        if(g < 51){
+            Contacto contactoAAgregar = new Contacto(nombre, apellido, celular);
+            this.contactos.add(contactoAAgregar);
+        }else{
+            System.out.println("No se pudo agregar el contacto.");
+        }
     }
 
     public void eliminarContacto(long celular){
