@@ -1,6 +1,6 @@
 package com.CuentaBancaria.app;
 
-import com.CuentaBancaria.dominio.Cuenta;
+import com.CuentaBancaria.dominio.*;
 
 import java.util.Scanner;
 
